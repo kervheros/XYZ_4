@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "911307074482",
+    "project_id": "firebase-logeo"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911307074482:android:bed44c89a5362d69",
+        "android_client_info": {
+          "package_name": "com.example.ale_j.xyz_4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "911307074482-79saq4ijligphqgrbu41a69u2bavocvd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ale_j.xyz_4",
+            "certificate_hash": "7dc0a9e87de13ebfa5045d34c0be1e3d59ce0f06"
+          }
+        },
+        {
+          "client_id": "911307074482-tc2qqcbspiln0cv8s38h3lkoilcqi5ff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9UoCc8D4dQJ91Jj6f5ICWIR_sXzePTSM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

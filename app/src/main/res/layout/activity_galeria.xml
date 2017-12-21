@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ale_j.xyz_4.galeria">
+
+    <Button
+        android:id="@+id/idselec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:text="selecciona imagen" />
+
+
+    <ImageView
+        android:id="@+id/idimage2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/camara"
+        android:layout_marginTop="59dp"
+        android:layout_below="@+id/idselec"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:id="@+id/gbutton"
+        android:layout_width="215dp"
+        android:layout_height="48dp"
+        android:text="Gurdar"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_below="@+id/idimage2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp" />
+    <Button
+        android:id="@+id/btvolver"
+        android:layout_width="215dp"
+        android:layout_height="48dp"
+        android:text="Volver"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_below="@+id/gbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp" />
+
+
+
+</RelativeLayout>
